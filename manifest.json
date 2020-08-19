@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+	"name": "Extension",
+	"version": "0.1",
+	"content_scripts": [
+		{
+			"matches": [
+			"https://www.google.com/"
+			],
+			"js": ["p5.js", "p5.sound.js", "content.js"]
+		}
+	]
+}
